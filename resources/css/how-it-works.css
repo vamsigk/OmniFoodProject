@@ -1,0 +1,47 @@
+.steps-box {
+    
+}
+
+.section-steps {
+    background-color: #f4f4f4;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+}
+
+
+.steps-box:last-child {
+    margin-top: 50px;
+    padding-left: 3%;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step div{
+    color: #e67e22;
+    display: inline-block;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    font-size: 120%;
+    float: left;
+    margin-right: 25px;
+}
+
+.btn-app-download img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+

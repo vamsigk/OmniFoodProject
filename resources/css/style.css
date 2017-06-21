@@ -13,6 +13,16 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix { zoom: 1}
+.clearfix:After {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
