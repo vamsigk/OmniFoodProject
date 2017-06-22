@@ -57,3 +57,40 @@
 .section-cities h3 {
     font-weight: 300;
 }
+
+/*-------TESTIMONIALS------------*/
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/resources/img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.testimonial-info {
+    font-style: italic;
+    line-height: 145%;
+    font-size: 100%; 
+}
+
+.testimonial-info:before {
+    content: "\201C";
+    font-size: 400%;
+    font-style: italic;
+}
+
+.testimonial-text {
+    margin: 15px 0;
+}
+
+
+.customer-info img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: inline;
+    vertical-align: middle;
+    margin-right: 15px;
+}
