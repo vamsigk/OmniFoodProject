@@ -82,7 +82,7 @@
 }
 
 .testimonial-text {
-    margin: 15px 0;
+    margin: 5px 0;
 }
 
 
@@ -94,3 +94,111 @@
     vertical-align: middle;
     margin-right: 15px;
 }
+
+
+/*---------PLANS-----------*/
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.plan-box h3 {
+    font-weight: 300;
+}
+
+
+.plan-box ul li {
+    list-style: none;
+    line-height: 145%;
+}
+
+.plan-box span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price {
+    font-size: 300%;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.price-per-meal {
+    
+}
+
+.plan-signup {
+    text-align: center;
+}
+
+
+/*------CONTACT FORM--------------------*/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 120%;
+    font-weight: 300;    
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #cbcbcb;
+    font: inherit;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+}
+
+/*-----section footer----------*/
+
+.section-footer {
+    background-color: #555555;
+    background-attachment: fixed;
+}
+
+.nav-footer li {
+    display: inline;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.nav-footer li a:link,
+.nav-footer li a:visited {
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+
+.nav-footer li a:hover,
+.nav-footer li a:active {
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 8px;
+    transition: border-bottom 0.2s;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #fff;
+    font-size: 80%;
+}
+
