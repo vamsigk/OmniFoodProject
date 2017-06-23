@@ -173,6 +173,7 @@ input[type=checkbox] {
 .section-footer {
     background-color: #555555;
     background-attachment: fixed;
+    padding: 50px 0 20px 0;
 }
 
 .nav-footer li {
@@ -183,22 +184,37 @@ input[type=checkbox] {
 
 .nav-footer li a:link,
 .nav-footer li a:visited {
-    color: #fff;
+    color: #9a9797;
     text-decoration: none;
-    font-size: 90%;
-    text-transform: uppercase;
-}
-
-.nav-footer li a:hover,
-.nav-footer li a:active {
-    border-bottom: 1px solid #e67e22;
-    padding-bottom: 8px;
-    transition: border-bottom 0.2s;
+    font-size: 70%;
+    font-weight: 500;
 }
 
 .footer-copyright {
     text-align: center;
-    color: #fff;
+    color: #9a9797;
     font-size: 80%;
+    margin-top: 10px;
 }
+
+.social-media-icons {
+    float: right;
+    color: #9a9797;
+    font-size: 200%;
+}
+
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+.ion-social-whatsapp:hover {
+    color: #4dc247;
+}
+
 
